@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="category_names">
+        <item>Buglary</item>
+        <item>Robbery</item>
+        <item>Murder</item>
+        <item>Hijack</item>
+        <item>Corruption</item>
+        <item>Cybercrime</item>
+        <item>Child Abuse</item>
+        <item>Sexual Harrasment</item>
+        <item>Kindnapping</item>
+        <item>Animal Cruelty</item>
+        <item>Fraud</item>
+        <item>Others..</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+
+    <TextView
+        android:id="@+id/gi_heading"
+        android:layout_gravity="left"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="@drawable/news_feed_header_border"
+        android:textSize="22sp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:paddingBottom="10dp"
+        android:lines="1"
+        android:text="7 Killed, 50 injured"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7h"
+        android:paddingTop="5dp"
+        android:textSize="17sp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:textColor="#000000"
+        android:id="@+id/gi_time" />
+
+    <ImageView
+        android:id="@+id/gi_img"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/crime_img"
+        />
+
+</LinearLayout>
